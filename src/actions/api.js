@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "https://54.219.163.122:8080/";
+const baseUrl = "https://13.57.213.229:8080/";
 //const baseUrl = "http://localhost:8080/service/getjson";
 
 export default {
