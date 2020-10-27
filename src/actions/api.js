@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "https://13.57.213.229:8080/";
+const baseUrl = "https://3.101.33.62:8080/";
 //const baseUrl = "http://localhost:8080/";
 
 export default {
