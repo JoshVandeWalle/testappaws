@@ -1,13 +1,13 @@
 import axios from "axios";
 const baseUrl = "https://13.57.213.229:8080/";
-//const baseUrl = "http://localhost:8080/service/getjson";
+//const baseUrl = "http://localhost:8080/";
 
 export default {
     // functions for each controller in .NET CORE
-    comment(url = baseUrl+"service/"){
+    comment(url = baseUrl+"comment/"){
         return {
             // for comment service
-            fetchAll: () => axios.get(url+"getjson"),
+            fetchAll: () => axios.get(url),
             create: (newRecord) => axios.post(url+"publish", newRecord),
             fetchById: (id) => axios.get(url+id),
             update: (updatedRecord) => axios.post(url+"edit", updatedRecord),
